@@ -1,0 +1,80 @@
+@import url("Media/Font/celtic/Celtic.ttf");
+@import url("Media/Font/stonecross/st______.ttf");
+
+
+@font-face{
+    src:url("../Media/Font/celtic/Celtic.ttf");
+    font-family: Celtic;
+}
+
+@font-face{
+    src:url("../Media/Font/stonecross/st______.ttf");
+    font-family: Stonecross;
+    font-weight: bold;
+}
+
+*{
+    font-family: Celtic;
+}
+
+body{
+    background-image: url("Media/Images/Shrek Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: Stonecross;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2{
+    font-family: Celtic;
+    font-style: italic;
+    text-align: center;
+}
+
+h3{
+    font-family: Celtic;
+   text-align: center;
+}
+
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display: block;
+    width: 500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: rgb(172, 249, 117);
+    width: 15%;
+    height: 50%;
+}
+
+h4{
+    font-family: Stonecross;
+    font-size: large;
+}
+
+p{
+    font-family: Celtic;
+    font-size: medium;
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
